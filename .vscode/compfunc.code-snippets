@@ -1,0 +1,21 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"function Comp(props) {",
+			"",
+			"    return(",
+			"        <>",
+			"",
+			"        </>",	
+			"    )",
+			"}",
+			"",
+			"export default Comp"
+		],
+		"description": "Log output to console"
+	}
+}

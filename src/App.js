@@ -1,17 +1,20 @@
 import React from "react";
-import Contador from "./components/Contator";
 // import Primeiro from './components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './components/Multi'
 // import Estilos from './components/Estilos'
 // import MinMax from "./components/MinMax";
 // import Titulo from './components/Titulo'
 // import Button from "./components/Button/Button";
+// import Contador from "./components/Contator";
+// import Pai from './components/direta/Pai'
+import Pai from "./components/indireta/Pai";
 
 function App() {
   return (
     <>
-    <Contador inicial={0} passo={5}/>
-    <Contador inicial={100} passo={10}/>
+    <Pai/>
+    {/* <Contador inicial={0} passo={5}/>
+    <Contador inicial={100} passo={10}/> */}
       {/* <Button type="primary" text="Cadastrar" acao="cadastrar"/>  
       <Button type="secundary" text="Voltar" acao="voltar"/>       */}
       {/* <Titulo principal="Olá" secundario="tudo bem"/>
