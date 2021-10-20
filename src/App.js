@@ -7,12 +7,28 @@ import React from "react";
 // import Button from "./components/Button/Button";
 // import Contador from "./components/Contator";
 // import Pai from './components/direta/Pai'
-import Pai from "./components/indireta/Pai";
+// import Pai from "./components/indireta/Pai";
+import Familia from "./components/Familia";
+import Membro from "./components/Membro";
 
 function App() {
   return (
     <>
-    <Pai/>
+
+    <Familia>
+      <Membro nome="William" sobrenome="Moraes"/>
+      <Membro nome="Rodrigo" sobrenome="Moraes"/>
+      <Membro nome="Leandro" sobrenome="Moraes"/>
+    </Familia>
+
+    <Familia>
+      <Membro nome="Luis" sobrenome="Miranda"/>
+      <Membro nome="Eliel" sobrenome="Miranda"/>
+      <Membro nome="Hildo" sobrenome="Miranda"/>
+      <Membro nome="Hildo" sobrenome="Miranda"/>
+      <Membro nome="Hildo" sobrenome="Miranda"/>
+    </Familia>
+    {/* <Pai/> */}
     {/* <Contador inicial={0} passo={5}/>
     <Contador inicial={100} passo={10}/> */}
       {/* <Button type="primary" text="Cadastrar" acao="cadastrar"/>  
