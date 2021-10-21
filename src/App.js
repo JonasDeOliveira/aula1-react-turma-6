@@ -1,5 +1,5 @@
 import React from "react";
-import CadastroNome from "./components/CadastroNome";
+// import CadastroNome from "./components/CadastroNome";
 // import DigiteSeuNome from "./components/DigiteSeuNome";
 // import Primeiro from './components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './components/Multi'
@@ -15,12 +15,13 @@ import CadastroNome from "./components/CadastroNome";
 // import ParImpar from "./components/ParImpar";
 // import UsuarioLogado from "./components/UsuarioLogado";
 // import ListaProdutos from "./components/Produtos/ListaProdutos";
-
+import CompClass from './components/CompClass'
 
 function App() {
   return (
     <>
-    <CadastroNome/>
+    <CompClass/>
+    {/* <CadastroNome/> */}
     {/* <DigiteSeuNome/> */}
     {/* <ListaProdutos/> */}
     {/* <UsuarioLogado usuario={{ nome: 'Jonas', email: 'jonas@gmail.com'}}/>
